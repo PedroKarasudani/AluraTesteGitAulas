@@ -2,6 +2,9 @@ package alura;
 
 public class Alura {
     public static void main(String[] args) {
+        
+        
+        // aula de fatorial
 //        int resultado = 1;
 //        int i = 1;
 //        for(int x = 1; x<= 10; x++){
