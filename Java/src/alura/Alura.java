@@ -19,6 +19,7 @@ public class Alura {
 //        }
     
 
+
        // codigo pelo professor(mais facil)
         int fatorial = 1;
         for (int i = 1; i < 11; i++) {
