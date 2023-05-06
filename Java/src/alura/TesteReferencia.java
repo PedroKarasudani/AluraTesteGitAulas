@@ -20,6 +20,8 @@ public class TesteReferencia {
         System.out.println("terceito teste: " + conta2.saldo);
         System.out.println("terceiro teste: " + conta1.saldo);
         
-        
+        if (conta1 == conta2){
+            System.out.println("Sao a mesma conta");
+        }
     }
 }

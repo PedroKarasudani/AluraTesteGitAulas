@@ -13,6 +13,10 @@ public class CriaConta {
         System.out.println("Saldo do primeiro usuario: " + primeiroUsuario.saldo);
         System.out.println("Saldo do segundo usuario: " + segundoUsuario.saldo);
         
-     
+          if(primeiroUsuario == segundoUsuario){
+            System.out.println("Sao a mesma conta");
+        } else {
+            System.out.println("Nao sao a mesma conta");
+        }
     }
 }
