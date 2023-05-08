@@ -8,6 +8,6 @@ public class Conta {
     String titular;
     
     public void deposito(double valor){
-        saldo += valor;
+        this.saldo += valor;
     }
 }
