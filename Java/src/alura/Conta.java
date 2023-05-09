@@ -2,10 +2,10 @@
 package alura;
 
 public class Conta {
-    double saldo;
-    int agencia;
-    int numero;
-    String titular;
+    private double saldo;
+    private int agencia;
+    private int numero;
+    private String titular;
     
     public void deposito(double valor){
         this.saldo += valor;
@@ -27,6 +27,10 @@ public class Conta {
             return true;
         }
         return false;
+    }
+    
+    public double leiaSaldo(){
+        return this.saldo;
     }
 }
 

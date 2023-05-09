@@ -6,7 +6,7 @@ public class CriaConta {
         Conta conta = new Conta();
         conta.deposito(100);
         System.out.println(conta.saca(200));
-        System.out.println(conta.saldo);
+        System.out.println(conta.leiaSaldo());
     }
 
 }
