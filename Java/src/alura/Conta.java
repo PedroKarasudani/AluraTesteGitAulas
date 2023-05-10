@@ -7,6 +7,12 @@ public class Conta {
     private int numero;
     private Cliente titular;
     
+    public Conta(double saldo, int agencia, int numero){
+        this.saldo = saldo;
+        this.agencia = agencia;
+        this.numero = numero;
+    }
+    
     public void deposito(double valor){
         this.saldo += valor;
     }
