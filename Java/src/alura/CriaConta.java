@@ -8,5 +8,6 @@ public class CriaConta {
         System.out.println(pedro.getSaldo());
         System.out.println(pedro.getNumero());
         System.out.println(pedro.getAgencia());
+        System.out.println(Conta.getTotal());
     }
 }

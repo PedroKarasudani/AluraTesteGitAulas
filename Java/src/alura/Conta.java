@@ -6,8 +6,10 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
+    private static int total;
     
     public Conta(double saldo, int agencia, int numero){
+        total++;
         this.saldo = saldo;
         this.agencia = agencia;
         this.numero = numero;
@@ -61,6 +63,10 @@ public class Conta {
 
     public Cliente getTitular() {
         return this.titular;
+    }
+
+    public static int getTotal() {
+        return total;
     }
     
     
